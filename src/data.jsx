@@ -1,5 +1,8 @@
 import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import project1 from './assets/projeto1.jpeg'
+import project2 from './assets/projeto2.jpeg'
+import project3 from './assets/projeto3.jpeg'
 
 export const links = [
   { id: nanoid(), href: "#about", text: "sobre" },
@@ -31,7 +34,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "https:images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: project1,
     url: "https:react-projects.netlify.app/",
     github: "https:github.com/john-smilga",
     title: "primeiro projeto",
@@ -39,7 +42,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "https:images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: project2,
     url: "https:react-projects.netlify.app/",
     github: "https:github.com/john-smilga",
     title: "segundo projeto",
@@ -47,7 +50,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "https:images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: project3,
     url: "https:react-projects.netlify.app/",
     github: "https:github.com/john-smilga",
     title: "terceiro projeto",
